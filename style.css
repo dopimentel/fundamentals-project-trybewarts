@@ -20,6 +20,15 @@
   display: flex;
   align-self: center;
   padding: 4px;
+  gap: 4px;
+  font-size: large;
+}
+
+#btn-send {
+  width: 100px;
+  background-color: lightgreen;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header img {
@@ -35,4 +44,30 @@ h1 {
   color: white;
   font-family: system-ui;
   font-size: xx-large;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  display: flex;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 90%;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid rgb(50, 167, 145);
 }
