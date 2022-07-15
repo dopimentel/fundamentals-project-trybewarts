@@ -15,20 +15,20 @@
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login" action="">
       <label for="email"></label>
-      <input type="email" name='email' placeholder="Email" id="email">
+      <input type="email" name="email" placeholder="Email" id="email" />
       <label for="password"></label>
-      <input type="password" name="password" placeholder="Senha" id="password">
+      <input type="password" name="password" placeholder="Senha" id="password" />
       <button type="submit" id="btn-send">Entrar</button>
     </form>
   </header>
   <main>
     <form id="evaluation-form" action="">
       <div class="container">
-        <input id="input-name" type="text" placeholder="Nome">
-        <input id="input-lastname" type="text" placeholder="Sobrenome">
+        <input id="input-name" type="text" placeholder="Nome" />
+        <input id="input-lastname" type="text" placeholder="Sobrenome" />
       </div>
       <div class="container">
-        <input id="input-email" type="email" placeholder="Email">
+        <input id="input-email" type="email" placeholder="Email" />
         <label for="house">Casa</label>
         <select name="name" id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -37,12 +37,15 @@
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
       </div>
+      <label class="textarea">Deixe seu comentário:</label>
+      <textarea name="" id="textarea" cols="50" rows="10" maxlength="500"></textarea>
+
       <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
-        <input type="checkbox" name="" id="agreement">
+        <input type="checkbox" name="" id="agreement" />
       </label>
       <button type="submit" disabled id="submit-btn">Enviar</button>
     </form>
-    <hr>
+
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo das Casas" />
   </main>
   <footer>
