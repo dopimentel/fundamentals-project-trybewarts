@@ -1,6 +1,8 @@
 const btnSend = document.getElementById('btn-send');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
+const agreement = document.getElementById('agreement');
+const submitBtn = document.getElementById('submit-btn');
 
 function validation(event) {
   event.preventDefault();
@@ -10,3 +12,15 @@ function validation(event) {
     alert('Email ou senha inválidos.');
   }
 }
+
+btnSend.addEventListener('click', validation);
+
+function submitValidation() {
+  if (agreement.checked) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+}
+
+agreement.addEventListener('click', submitValidation);
