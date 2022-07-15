@@ -10,5 +10,3 @@ function validation(event) {
     alert('Email ou senha inválidos.');
   }
 }
-
-btnSend.addEventListener('click', validation);

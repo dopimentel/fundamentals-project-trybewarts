@@ -61,6 +61,10 @@ main {
   display: flex;
 }
 
+.container {
+  display: flex;
+}
+
 footer {
   bottom: 0;
   position: fixed;
