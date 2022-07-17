@@ -80,6 +80,7 @@ footer {
 
 #submit-btn {
   border-radius: 5px;
+  background-color: rgba(79,44,131,0.2);
   color: white;
   font-size: 20px;
   font-weight: 900;
