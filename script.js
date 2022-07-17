@@ -26,3 +26,16 @@ function submitValidation() {
 }
 
 agreement.addEventListener('click', submitValidation);
+
+const textArea = document.getElementById('textarea');
+const counter = document.createElement('p');
+counter.id = 'counter';
+textArea.parentElement.appendChild(counter);
+counter.innerHTML = '500';
+textArea.parentElement.insertBefore(counter, textArea.nextElementSibling);
+
+function counterCaracteres(event) {
+  console.log(event.target.value);
+  counter.innerHTML = 500 - textArea.value.length;
+}
+textArea.addEventListener('keyup', counterCaracteres);
