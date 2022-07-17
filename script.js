@@ -34,8 +34,8 @@ textArea.parentElement.appendChild(counter);
 counter.innerHTML = '500';
 textArea.parentElement.insertBefore(counter, textArea.nextElementSibling);
 
-function counterCaracteres(event) {
+function caracteresCounter(event) {
   console.log(event.target.value);
   counter.innerHTML = 500 - textArea.value.length;
 }
-textArea.addEventListener('keyup', counterCaracteres);
+textArea.addEventListener('keyup', caracteresCounter);
