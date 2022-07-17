@@ -26,7 +26,9 @@
 
 #btn-send {
   width: 100px;
-  background-color: lightgreen;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(79,44,131);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -72,13 +74,12 @@ main {
 
 footer {
   bottom: 0;
-  position: fixed;
   width: 90%;
   text-align: center;
 }
 
 #submit-btn {
-  background-color: blue;
+  border-radius: 5px;
   color: white;
   font-size: 20px;
   font-weight: 900;

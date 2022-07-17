@@ -18,7 +18,9 @@ btnSend.addEventListener('click', validation);
 function submitValidation() {
   if (agreement.checked) {
     submitBtn.disabled = false;
+    submitBtn.style.backgroundColor = 'rgb(79, 44, 131)';
   } else {
+    submitBtn.style.backgroundColor = 'rgba(79, 44, 131, 0.2)';
     submitBtn.disabled = true;
   }
 }
