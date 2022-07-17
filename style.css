@@ -28,7 +28,7 @@
   width: 100px;
   color: white;
   border-radius: 5px;
-  background-color: rgb(79,44,131);
+  background-color: rgb(79, 44, 131);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -80,7 +80,7 @@ footer {
 
 #submit-btn {
   border-radius: 5px;
-  background-color: rgba(79,44,131,0.2);
+  background-color: rgba(79, 44, 131, 0.2);
   color: white;
   font-size: 20px;
   font-weight: 900;
