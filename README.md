@@ -8,3 +8,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
+## Autores
+Feito em dupla conforme histórico de commits
+- [@erickbxs](https://www.github.com/erickbxs)
+- [@dopimentel](https://www.github.com/dopimentel)
